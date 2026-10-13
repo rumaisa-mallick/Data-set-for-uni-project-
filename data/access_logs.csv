@@ -1,0 +1,121 @@
+log_id,timestamp,user_id,username,action,ticket_id,project,issue_type,priority,comment_length,from_status,to_status,duration_seconds,ip_address
+L0001,2026-10-11T08:02:12Z,U001,ajackson,login,,ALPHA,,, , , , ,192.0.2.11
+L0002,2026-10-11T08:05:34Z,U001,ajackson,view_ticket,ALPHA-101,ALPHA,Bug,High,0, , , ,192.0.2.11
+L0003,2026-10-11T08:07:05Z,U001,ajackson,comment,ALPHA-101,ALPHA,Bug,High,128, , , ,192.0.2.11
+L0004,2026-10-11T08:15:40Z,U001,ajackson,create_ticket,ALPHA-142,ALPHA,Task,Medium,0, ,Open, ,192.0.2.11
+L0005,2026-10-11T08:22:01Z,U001,ajackson,logout,,ALPHA,,, , , , ,192.0.2.11
+L0006,2026-10-11T09:14:03Z,U002,btan,login,,ALPHA,,, , , , ,198.51.100.22
+L0007,2026-10-11T09:16:10Z,U002,btan,view_ticket,ALPHA-102,ALPHA,Story,Medium,0, , , ,198.51.100.22
+L0008,2026-10-11T09:18:45Z,U002,btan,transition,ALPHA-102,ALPHA,Story,Medium,0,In Progress,Code Review, ,198.51.100.22
+L0009,2026-10-11T09:30:20Z,U002,btan,comment,ALPHA-102,ALPHA,Story,Medium,64, , , ,198.51.100.22
+L0010,2026-10-11T09:47:55Z,U002,btan,resolve,ALPHA-102,ALPHA,Story,Medium,0,In Progress,Done,3600,198.51.100.22
+L0011,2026-10-11T10:00:00Z,U003,cmohammad,login,,ALPHA,,, , , , ,203.0.113.5
+L0012,2026-10-11T10:02:20Z,U003,cmohammad,view_ticket,BETA-210,BETA,Bug,High,0, , , ,203.0.113.5
+L0013,2026-10-11T10:05:01Z,U003,cmohammad,comment,BETA-210,BETA,Bug,High,240, , , ,203.0.113.5
+L0014,2026-10-11T10:15:22Z,U003,cmohammad,transition,BETA-210,BETA,Bug,High,0,Open,In Progress, ,203.0.113.5
+L0015,2026-10-11T10:25:10Z,U003,cmohammad,logout,,BETA,,, , , , ,203.0.113.5
+L0016,2026-10-11T11:00:00Z,U004,drizvi,login,,ALPHA,,, , , , ,192.0.2.33
+L0017,2026-10-11T11:03:50Z,U004,drizvi,view_ticket,ALPHA-101,ALPHA,Bug,High,0, , , ,192.0.2.33
+L0018,2026-10-11T11:07:30Z,U004,drizvi,comment,ALPHA-101,ALPHA,Bug,High,320, , , ,192.0.2.33
+L0019,2026-10-11T11:22:01Z,U004,drizvi,create_ticket,BETA-215,BETA,Story,Medium,0, ,Open, ,192.0.2.33
+L0020,2026-10-11T11:40:12Z,U004,drizvi,logout,,ALPHA,,, , , , ,192.0.2.33
+L0021,2026-10-11T12:05:42Z,U005,efarooq,login,,BETA,,, , , , ,198.51.100.45
+L0022,2026-10-11T12:06:10Z,U005,efarooq,view_ticket,BETA-215,BETA,Story,Medium,0, , , ,198.51.100.45
+L0023,2026-10-11T12:06:44Z,U005,efarooq,comment,BETA-215,BETA,Story,Medium,48, , , ,198.51.100.45
+L0024,2026-10-11T12:10:00Z,U005,efarooq,logout,,BETA,,, , , , ,198.51.100.45
+L0025,2026-10-11T12:30:10Z,U006,fkhan,login,,OPS,,, , , , ,203.0.113.77
+L0026,2026-10-11T12:33:21Z,U006,fkhan,view_ticket,OPS-01,OPS,Task,Critical,0, , , ,203.0.113.77
+L0027,2026-10-11T12:34:50Z,U006,fkhan,comment,OPS-01,OPS,Task,Critical,140, , , ,203.0.113.77
+L0028,2026-10-11T12:36:00Z,U006,fkhan,transition,OPS-01,OPS,Task,Critical,0,Open,In Progress, ,203.0.113.77
+L0029,2026-10-11T12:50:30Z,U006,fkhan,resolve,OPS-01,OPS,Task,Critical,0,In Progress,Done,900,203.0.113.77
+L0030,2026-10-11T13:05:05Z,U007,gali,login,,BETA,,, , , , ,192.0.2.55
+L0031,2026-10-11T13:08:22Z,U007,gali,create_ticket,BETA-216,BETA,Bug,High,0, ,Open, ,192.0.2.55
+L0032,2026-10-11T13:10:40Z,U007,gali,comment,BETA-216,BETA,Bug,High,64, , , ,192.0.2.55
+L0033,2026-10-11T13:15:00Z,U007,gali,logout,,BETA,,, , , , ,192.0.2.55
+L0034,2026-10-11T14:00:00Z,U008,hsaeed,login,,GAMMA,,, , , , ,198.51.100.66
+L0035,2026-10-11T14:05:12Z,U008,hsaeed,view_ticket,GAMMA-300,GAMMA,Task,Low,0, , , ,198.51.100.66
+L0036,2026-10-11T14:07:33Z,U008,hsaeed,comment,GAMMA-300,GAMMA,Task,Low,100, , , ,198.51.100.66
+L0037,2026-10-11T14:18:00Z,U008,hsaeed,logout,,GAMMA,,, , , , ,198.51.100.66
+L0038,2026-10-11T14:30:00Z,U009,imohsin,login,,OPS,,, , , , ,203.0.113.88
+L0039,2026-10-11T14:35:11Z,U009,imohsin,view_ticket,OPS-02,OPS,Bug,High,0, , , ,203.0.113.88
+L0040,2026-10-11T14:38:40Z,U009,imohsin,comment,OPS-02,OPS,Bug,High,200, , , ,203.0.113.88
+L0041,2026-10-11T14:45:00Z,U009,imohsin,logout,,OPS,,, , , , ,203.0.113.88
+L0042,2026-10-11T15:00:00Z,U010,jmalik,login,,ALPHA,,, , , , ,192.0.2.99
+L0043,2026-10-11T15:02:35Z,U010,jmalik,view_ticket,ALPHA-110,ALPHA,Story,Medium,0, , , ,192.0.2.99
+L0044,2026-10-11T15:05:00Z,U010,jmalik,comment,ALPHA-110,ALPHA,Story,Medium,400, , , ,192.0.2.99
+L0045,2026-10-11T15:20:00Z,U010,jmalik,logout,,ALPHA,,, , , , ,192.0.2.99
+L0046,2026-10-11T16:05:05Z,U011,knasir,login,,BETA,,, , , , ,198.51.100.12
+L0047,2026-10-11T16:06:10Z,U011,knasir,view_ticket,BETA-216,BETA,Bug,High,0, , , ,198.51.100.12
+L0048,2026-10-11T16:08:33Z,U011,knasir,logout,,BETA,,, , , , ,198.51.100.12
+L0049,2026-10-11T17:00:00Z,U012,labbas,login,,ALPHA,,, , , , ,203.0.113.21
+L0050,2026-10-11T17:05:12Z,U012,labbas,view_ticket,ALPHA-142,ALPHA,Task,Medium,0, , , ,203.0.113.21
+L0051,2026-10-11T17:06:30Z,U012,labbas,comment,ALPHA-142,ALPHA,Task,Medium,36, , , ,203.0.113.21
+L0052,2026-10-11T17:20:00Z,U012,labbas,logout,,ALPHA,,, , , , ,203.0.113.21
+L0053,2026-10-12T05:02:02Z,U013,mqureshi,login,,GAMMA,,, , , , ,192.0.2.77
+L0054,2026-10-12T05:04:10Z,U013,mqureshi,view_ticket,GAMMA-310,GAMMA,Story,Low,0, , , ,192.0.2.77
+L0055,2026-10-12T05:07:22Z,U013,mqureshi,comment,GAMMA-310,GAMMA,Story,Low,72, , , ,192.0.2.77
+L0056,2026-10-12T05:20:00Z,U013,mqureshi,logout,,GAMMA,,, , , , ,192.0.2.77
+L0057,2026-10-12T05:25:33Z,U014,nsalim,login,,ALPHA,,, , , , ,198.51.100.88
+L0058,2026-10-12T05:28:10Z,U014,nsalim,view_ticket,ALPHA-103,ALPHA,Bug,High,0, , , ,198.51.100.88
+L0059,2026-10-12T05:30:00Z,U014,nsalim,transition,ALPHA-103,ALPHA,Bug,High,0,Open,In Progress, ,198.51.100.88
+L0060,2026-10-12T05:45:10Z,U014,nsalim,comment,ALPHA-103,ALPHA,Bug,High,88, , , ,198.51.100.88
+L0061,2026-10-12T05:55:00Z,U014,nsalim,logout,,ALPHA,,, , , , ,198.51.100.88
+L0062,2026-10-12T06:00:12Z,U015,orashid,login,,BETA,,, , , , ,203.0.113.9
+L0063,2026-10-12T06:03:22Z,U015,orashid,create_ticket,BETA-217,BETA,Sub-task,Low,0, ,Open, ,203.0.113.9
+L0064,2026-10-12T06:05:00Z,U015,orashid,comment,BETA-217,BETA,Sub-task,Low,60, , , ,203.0.113.9
+L0065,2026-10-12T06:10:30Z,U015,orashid,resolve,BETA-217,BETA,Sub-task,Low,0,In Progress,Done,120,203.0.113.9
+L0066,2026-10-12T06:20:00Z,U015,orashid,logout,,BETA,,, , , , ,203.0.113.9
+L0067,2026-10-12T06:40:10Z,U007,gali,login,,ALPHA,,, , , , ,192.0.2.55
+L0068,2026-10-12T06:42:00Z,U007,gali,comment,ALPHA-110,ALPHA,Story,Medium,45, , , ,192.0.2.55
+L0069,2026-10-12T06:50:55Z,U007,gali,create_ticket,ALPHA-143,ALPHA,Bug,High,0, ,Open, ,192.0.2.55
+L0070,2026-10-12T07:05:00Z,U007,gali,logout,,ALPHA,,, , , , ,192.0.2.55
+L0071,2026-10-12T07:12:15Z,U001,ajackson,login,,ALPHA,,, , , , ,192.0.2.11
+L0072,2026-10-12T07:14:40Z,U001,ajackson,view_ticket,ALPHA-143,ALPHA,Bug,High,0, , , ,192.0.2.11
+L0073,2026-10-12T07:16:05Z,U001,ajackson,comment,ALPHA-143,ALPHA,Bug,High,96, , , ,192.0.2.11
+L0074,2026-10-12T07:30:00Z,U001,ajackson,logout,,ALPHA,,, , , , ,192.0.2.11
+L0075,2026-10-12T07:40:00Z,U009,imohsin,login,,OPS,,, , , , ,203.0.113.88
+L0076,2026-10-12T07:42:10Z,U009,imohsin,create_ticket,OPS-03,OPS,Bug,Critical,0, ,Open, ,203.0.113.88
+L0077,2026-10-12T07:44:05Z,U009,imohsin,comment,OPS-03,OPS,Bug,Critical,180, , , ,203.0.113.88
+L0078,2026-10-12T07:50:00Z,U009,imohsin,logout,,OPS,,, , , , ,203.0.113.88
+L0079,2026-10-12T08:00:05Z,U006,fkhan,login,,OPS,,, , , , ,203.0.113.77
+L0080,2026-10-12T08:02:30Z,U006,fkhan,view_ticket,OPS-03,OPS,Bug,Critical,0, , , ,203.0.113.77
+L0081,2026-10-12T08:05:10Z,U006,fkhan,comment,OPS-03,OPS,Bug,Critical,220, , , ,203.0.113.77
+L0082,2026-10-12T08:18:00Z,U006,fkhan,resolve,OPS-03,OPS,Bug,Critical,0,In Progress,Done,1500,203.0.113.77
+L0083,2026-10-12T08:30:00Z,U006,fkhan,logout,,OPS,,, , , , ,203.0.113.77
+L0084,2026-10-12T09:00:00Z,U002,btan,login,,ALPHA,,, , , , ,198.51.100.22
+L0085,2026-10-12T09:05:20Z,U002,btan,create_ticket,ALPHA-144,ALPHA,Story,Medium,0, ,Open, ,198.51.100.22
+L0086,2026-10-12T09:15:40Z,U002,btan,comment,ALPHA-144,ALPHA,Story,Medium,88, , , ,198.51.100.22
+L0087,2026-10-12T09:30:00Z,U002,btan,logout,,ALPHA,,, , , , ,198.51.100.22
+L0088,2026-10-12T10:01:00Z,U014,nsalim,login,,GAMMA,,, , , , ,198.51.100.88
+L0089,2026-10-12T10:05:10Z,U014,nsalim,view_ticket,GAMMA-305,GAMMA,Task,Low,0, , , ,198.51.100.88
+L0090,2026-10-12T10:10:35Z,U014,nsalim,comment,GAMMA-305,GAMMA,Task,Low,60, , , ,198.51.100.88
+L0091,2026-10-12T10:20:01Z,U014,nsalim,logout,,GAMMA,,, , , , ,198.51.100.88
+L0092,2026-10-12T10:30:15Z,U004,drizvi,login,,BETA,,, , , , ,192.0.2.33
+L0093,2026-10-12T10:32:50Z,U004,drizvi,comment,BETA-210,BETA,Bug,High,200, , , ,192.0.2.33
+L0094,2026-10-12T10:45:00Z,U004,drizvi,logout,,BETA,,, , , , ,192.0.2.33
+L0095,2026-10-12T11:00:00Z,U008,hsaeed,login,,ALPHA,,, , , , ,198.51.100.66
+L0096,2026-10-12T11:02:10Z,U008,hsaeed,view_ticket,ALPHA-101,ALPHA,Bug,High,0, , , ,198.51.100.66
+L0097,2026-10-12T11:08:20Z,U008,hsaeed,comment,ALPHA-101,ALPHA,Bug,High,160, , , ,198.51.100.66
+L0098,2026-10-12T11:20:00Z,U008,hsaeed,logout,,ALPHA,,, , , , ,198.51.100.66
+L0099,2026-10-12T11:30:00Z,U005,efarooq,login,,BETA,,, , , , ,198.51.100.45
+L0100,2026-10-12T11:31:25Z,U005,efarooq,view_ticket,BETA-215,BETA,Story,Medium,0, , , ,198.51.100.45
+L0101,2026-10-12T11:33:10Z,U005,efarooq,comment,BETA-215,BETA,Story,Medium,28, , , ,198.51.100.45
+L0102,2026-10-12T11:40:00Z,U005,efarooq,logout,,BETA,,, , , , ,198.51.100.45
+L0103,2026-10-12T12:00:00Z,U011,knasir,login,,BETA,,, , , , ,198.51.100.12
+L0104,2026-10-12T12:04:20Z,U011,knasir,view_ticket,BETA-217,BETA,Sub-task,Low,0, , , ,198.51.100.12
+L0105,2026-10-12T12:05:30Z,U011,knasir,logout,,BETA,,, , , , ,198.51.100.12
+L0106,2026-10-12T12:20:00Z,U012,labbas,login,,ALPHA,,, , , , ,203.0.113.21
+L0107,2026-10-12T12:25:10Z,U012,labbas,comment,ALPHA-142,ALPHA,Task,Medium,22, , , ,203.0.113.21
+L0108,2026-10-12T12:30:00Z,U012,labbas,logout,,ALPHA,,, , , , ,203.0.113.21
+L0109,2026-10-12T12:45:00Z,U013,mqureshi,login,,GAMMA,,, , , , ,192.0.2.77
+L0110,2026-10-12T12:47:20Z,U013,mqureshi,create_ticket,GAMMA-311,GAMMA,Story,Low,0, ,Open, ,192.0.2.77
+L0111,2026-10-12T12:50:33Z,U013,mqureshi,comment,GAMMA-311,GAMMA,Story,Low,44, , , ,192.0.2.77
+L0112,2026-10-12T13:05:00Z,U013,mqureshi,logout,,GAMMA,,, , , , ,192.0.2.77
+L0113,2026-10-12T13:20:00Z,U015,orashid,login,,BETA,,, , , , ,203.0.113.9
+L0114,2026-10-12T13:22:10Z,U015,orashid,view_ticket,BETA-216,BETA,Bug,High,0, , , ,203.0.113.9
+L0115,2026-10-12T13:25:30Z,U015,orashid,comment,BETA-216,BETA,Bug,High,96, , , ,203.0.113.9
+L0116,2026-10-12T13:40:00Z,U015,orashid,logout,,BETA,,, , , , ,203.0.113.9
+L0117,2026-10-12T14:00:00Z,U014,nsalim,login,,ALPHA,,, , , , ,198.51.100.88
+L0118,2026-10-12T14:02:10Z,U014,nsalim,comment,ALPHA-144,ALPHA,Story,Medium,78, , , ,198.51.100.88
+L0119,2026-10-12T14:15:00Z,U014,nsalim,logout,,ALPHA,,, , , , ,198.51.100.88
+L0120,2026-10-12T14:30:00Z,U001,ajackson,login,,ALPHA,,, , , , ,192.0.2.11
